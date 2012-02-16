@@ -28,7 +28,7 @@
          yaml-mode
          ;; common set
          color-theme
-         color-theme-twilight
+         color-theme-railscasts
          tabbar-mode
          psvn
          ;;session

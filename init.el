@@ -10,3 +10,4 @@
 (load "conf/yaml-mode")
 (load "conf/css-mode")
 (load "conf/textmate")
+(load "conf/theme")
