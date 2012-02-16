@@ -21,6 +21,7 @@
          ;; ruby set
          inf-ruby
          ruby-mode
+         rspec-mode
          ruby-electric
          ruby-compilation
          rvm

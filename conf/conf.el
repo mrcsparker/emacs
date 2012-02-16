@@ -7,7 +7,11 @@
 (setq auto-save-default nil)
 (setq-default tab-width 2)
 (setq-default indent-tabs-mode nil)
+
+;; Don't show that splash screen
 (setq inhibit-startup-message t)
+;; Allows syntax highlighting to work, among other things
+(global-font-lock-mode 1)
 
 (fset 'yes-or-no-p 'y-or-n-p)
 
