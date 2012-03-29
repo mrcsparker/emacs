@@ -8,7 +8,8 @@
 
 (setq my-el-get-packages
       (append
-       '(magit
+       '(ecb
+         magit
          rhtml-mode
          haml-mode				 
          sass-mode		
@@ -30,13 +31,14 @@
          ;; common set
          color-theme
          color-theme-railscasts
-         tabbar-mode
          psvn
          ;;session
          auto-complete
          auto-complete-css
          auto-complete-emacs-lisp
          auto-complete-ruby
+         ;; processing
+         ;processing-mode
          )
        (mapcar 'el-get-source-name el-get-sources)))
 
