@@ -39,6 +39,9 @@
          auto-complete-ruby
          ;; processing
          ;processing-mode
+         ;; clojure
+         clojure-mode
+         paredit
          )
        (mapcar 'el-get-source-name el-get-sources)))
 
