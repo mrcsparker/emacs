@@ -7,8 +7,6 @@
 (load "conf/conf")
 (load "conf/cucumber")
 (load "conf/ruby-mode")
-(load "conf/rhtml-mode")
-(load "conf/yaml-mode")
 (load "conf/css-mode")
 ;(load "conf/textmate")
 (load "conf/theme")
